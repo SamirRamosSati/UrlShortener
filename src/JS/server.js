@@ -10,6 +10,7 @@ const fs_1 = __importDefault(require("fs"));
 const app = (0, express_1.default)();
 app.set("view engine", "ejs");
 app.use((0, express_2.urlencoded)({ extended: true }));
+app.use(express_1.default.static("public"));
 const DATA_FILE = "./data/data.json";
 function loadUrls() {
     if (!fs_1.default.existsSync(DATA_FILE))
