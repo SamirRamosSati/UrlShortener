@@ -18,9 +18,15 @@
   },
   "homepage": "https://github.com/SamirRamosSati/UrlShortener#readme",
   "dependencies": {
-    "ejs": "^3.1.10"
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "shortid": "^2.2.17"
   },
   "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.14",
+    "@types/shortid": "^2.2.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }

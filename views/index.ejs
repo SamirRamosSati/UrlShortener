@@ -60,5 +60,16 @@
         </tbody>
       </table>
     </div>
+    <script>
+      const shortLinks = document.querySelectorAll(".short-link");
+
+      shortLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          setTimeout(() => {
+            location.reload();
+          }, 1000);
+        });
+      });
+    </script>
   </body>
 </html>
