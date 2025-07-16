@@ -18,3 +18,5 @@ This application allows users to enter a full URL, generate a unique shortened v
   - Express.js as the web framework
   - EJS for rendering server-side views
   - Node.js `fs` module for file I/O
+
+Deploy Link: https://urlshortener-production-1ae1.up.railway.app/
